@@ -1,0 +1,29 @@
+#nav{
+    margin-left: 50em;
+    padding: 5px;
+}
+.nav-link{
+    color:  grey;
+}
+.nav-item{
+    padding: 0px 10px;
+}
+.explore p{
+    padding: 2px ;
+}
+.places .card{
+    padding: 10px;
+    /* border: 0; */
+}
+.places .card img{
+    border-radius: 20px;
+}
+.bold{
+    color: #1DB4FF;
+}
+.price{
+    color: #6E7491;
+    position: absolute;
+    right: 20px;
+}
+
