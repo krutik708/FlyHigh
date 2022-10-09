@@ -8,10 +8,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <!-- Data table css-->
     <link rel="stylesheet" href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.min.css">
@@ -27,9 +25,8 @@
     <link href='https://fonts.googleapis.com/css?family=Abril Fatface' rel='stylesheet'>
     <!-- Font awesome symbols -->
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
-        integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css'>
 
 
     <title>Fly High</title>
@@ -40,34 +37,34 @@
 
     <div class="searchfilter">
         <select id="multipleselect" multiple name="native-select" placeholder="Max Price" data-search="true" data-silent-initial-value-set="true">
-            <option value="1" >$100</option>
+            <option value="1">$100</option>
             <option value="2">$200</option>
-            <option value="3" >$300</option>
+            <option value="3">$300</option>
         </select>
         <select id="multipleselect" multiple name="native-select" placeholder="Times" data-search="true" data-silent-initial-value-set="true">
-            <option value="1" >11 AM - 1PM</option>
+            <option value="1">11 AM - 1PM</option>
             <option value="2">3PM - 5PM</option>
-            <option value="3" >8PM - 11PM</option>
+            <option value="3">8PM - 11PM</option>
         </select>
         <select id="multipleselect" multiple name="native-select" placeholder="Airlines" data-search="true" data-silent-initial-value-set="true">
             <option value="1" disabled>Air India</option>
             <option value="2">Indigo</option>
-            <option value="3" >Akasa Air</option>
+            <option value="3">Akasa Air</option>
         </select>
         <select id="multipleselect" multiple name="native-select" placeholder="Seat Class" data-search="true" data-silent-initial-value-set="true">
             <option value="1" disabled>Business</option>
             <option value="2">Economy</option>
-            <option value="3" >Broke</option>
+            <option value="3">Broke</option>
         </select>
     </div>
 
-    
+
     <!--dropdown list ends with this div -->
 
     <div class="containspriceandtable">
 
         <div class="selectedflightdetails" style="margin-top: 5.5em;">
-            
+
             <table id="flighttable" class="display">
                 <thead>
                     <tr>
@@ -81,8 +78,7 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td><img src="../resources/images/Air-India-logo.png"
-                                style="width: 50px; height: 50px; margin-right: 10px;">Air India</td>
+                        <td><img src="../resources/images/Air-India-logo.png" style="width: 50px; height: 50px; margin-right: 10px;">Air India</td>
                         <td>16h 45m</td>
                         <td>7:00 AM</td>
                         <td>4:15PM</td>
@@ -90,8 +86,7 @@
                         <td>$624</td>
                     </tr>
                     <tr>
-                        <td><img id="" src="../resources/images/indigo-logo.png"
-                                style="width: 50px; height: 40px; margin-right: 10px;">IndiGO</td>
+                        <td><img id="" src="../resources/images/indigo-logo.png" style="width: 50px; height: 40px; margin-right: 10px;">IndiGO</td>
                         <td>16h 45m</td>
                         <td>7:00 AM</td>
                         <td>4:15PM</td>
@@ -99,8 +94,7 @@
                         <td>$624</td>
                     </tr>
                     <tr>
-                        <td><img src="../resources/images/akasaairlogo.jpg"
-                                style="width: 50px; height: 50px; margin-right: 10px;">Akasa Air</td>
+                        <td><img src="../resources/images/akasaairlogo.jpg" style="width: 50px; height: 50px; margin-right: 10px;">Akasa Air</td>
                         <td>16h 45m</td>
                         <td>7:00 AM</td>
                         <td>4:15PM</td>
@@ -117,8 +111,7 @@
                         <td>$624</td>
                     </tr>
                     <tr>
-                        <td><img src="../resources/images/Air-India-logo.png"
-                                style="width: 50px; height: 40px; margin-right: 10px;">Air India</td>
+                        <td><img src="../resources/images/Air-India-logo.png" style="width: 50px; height: 40px; margin-right: 10px;">Air India</td>
                         <td>16h 45m</td>
                         <td>7:00 AM</td>
                         <td>4:15PM</td>
@@ -126,8 +119,7 @@
                         <td>$624</td>
                     </tr>
                     <tr>
-                        <td><img src="../resources/images/indigo-logo.png"
-                                style="width: 50px; height: 40px; margin-right: 10px;">IndiGO</td>
+                        <td><img src="../resources/images/indigo-logo.png" style="width: 50px; height: 40px; margin-right: 10px;">IndiGO</td>
                         <td>16h 45m</td>
                         <td>7:00 AM</td>
                         <td>4:15PM</td>
@@ -135,8 +127,7 @@
                         <td>$624</td>
                     </tr>
                     <tr>
-                        <td><img src="../resources/images/akasaairlogo.jpg"
-                                style="width: 50px; height: 40px; margin-right: 10px;">Akasa Air</td>
+                        <td><img src="../resources/images/akasaairlogo.jpg" style="width: 50px; height: 40px; margin-right: 10px;">Akasa Air</td>
                         <td>16h 45m</td>
                         <td>7:00 AM</td>
                         <td>4:15PM</td>
@@ -210,8 +201,7 @@
         </div>
         <div class="card-group">
             <div class="card ">
-                <img src="../resources/images/park,bangalore.jpg"
-                    class="card-img-top" alt="...">
+                <img src="../resources/images/park,bangalore.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">The Park, </span><span class="price"> $598</span></h5>
                     </h5>
@@ -222,8 +212,7 @@
                 </div>
             </div>
             <div class="card">
-                <img src="../resources/images/octave.jpg"
-                    class="card-img-top" alt="...">
+                <img src="../resources/images/octave.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Octave Himalaya Monarch, </span><span class="price">$981</span></h5>
                     <p class="card-text">Located in Gandhi Nagar,Bangalore with impeccable rooms, conference facilities
@@ -232,8 +221,7 @@
                 </div>
             </div>
             <div class="card">
-                <img src="https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/201306271508561947-bdd039ba1df811e8832b02755708f0b3.jpg?&output-quality=75&downsize=520:350&crop=520:350;81,0&output-format=jpg"
-                    class="card-img-top" alt="...">
+                <img src="https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/201306271508561947-bdd039ba1df811e8832b02755708f0b3.jpg?&output-quality=75&downsize=520:350&crop=520:350;81,0&output-format=jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">The Signature Inn, <span class="price">$633</span></h5>
                     <p class="card-text">Experience a truly unique stay in an authentic hotel.
@@ -259,8 +247,7 @@
             </div>
         </div>
         <div class="card">
-            <img src="https://images-acme.mmtcdn.com/prod-acme-image/system/product_media/c/53514/media6B2GA8XSQ8G4A.jpg?imwidth=520&quality=70"
-                class="card-img-top" alt="...">
+            <img src="https://images-acme.mmtcdn.com/prod-acme-image/system/product_media/c/53514/media6B2GA8XSQ8G4A.jpg?imwidth=520&quality=70" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">Guhantara - The Underground Cave Resort <span class="price">$981</span>
                 </h5>
@@ -268,56 +255,45 @@
             </div>
         </div>
         <div class="card">
-            <img src="https://www.explorebees.com/uploads/kokrebellur%20bird%20sanctuary.jpg" class="card-img-top"
-                alt="...">
+            <img src="https://www.explorebees.com/uploads/kokrebellur%20bird%20sanctuary.jpg" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">Kokkare Bellur Bird Sanc.<span class="price">$633</span></h5>
                 <p class="card-text">Escape from the hustle-bustle of life and immerse yourself in nature</p>
             </div>
         </div>
     </div>
-        <!-- footer from next line -->
+    <!-- footer from next line -->
     @include('footer')
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
-        </script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
-        </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
 
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
-        </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
     <!-- <script src="js/dropdown.js"></script> -->
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
     <script src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
 
     <script src="../resources/js/virtual-select.min.js"></script>
     <script>
-
-        $(document).ready(function () {
+        $(document).ready(function() {
             $('#flighttable').DataTable();
         });
     </script>
 
-<script>
-    VirtualSelect.init({
-      ele: '#multipleselect'
-    });
-  </script>
+    <script>
+        VirtualSelect.init({
+            ele: '#multipleselect'
+        });
+    </script>
 </body>
 
 </html>
