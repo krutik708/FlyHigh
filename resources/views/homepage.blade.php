@@ -163,32 +163,27 @@
         </div>
         <div class="card-group" id="hide" style="display:none ;">
             <div class="card home_card">
-                <img src="../resources/images/image5.png" class="card-img-top" alt="...">
+                <img src="../resources/images/Ooty.jpeg" class="card-img-top" alt="..." height="300px">
                 <div class="card-body">
-                    <h5 class="card-title">Stay among the atolls in <span class="bold">Maldives</span></span>
+                    <h5 class="card-title">Sprawling along the slopes of the Doddabetta mountain in <span class="bold">Ooty</span></span>
                     </h5>
                     </h5>
-                    <p class="card-text">From the 2nd century AD, the islands were known as the 'Money Isles' due to the
-                        abundance of cowry shells, a currency of
-                        the early ages.</p>
+                    <p class="card-text"> Housed here are lush, manicured lawns, exotic and rare species of flora and a vast variety of flowering bushes and plants in myriad hues.</p>
                 </div>
             </div>
             <div class="card home_card">
-                <img src="../resources/images/image6.png" class="card-img-top" alt="...">
+                <img src="../resources/images/China.jpg" class="card-img-top" alt="..." height="300px">
                 <div class="card-body">
-                    <h5 class="card-title">Experience the Ourika Valley in <span class="bold">Morocco</span>
+                    <h5 class="card-title">Experience the Great Wall in <span class="bold">China</span>
                     </h5>
-                    <p class="card-text">Morocco’s Hispano-Moorish architecture blends influences from Berber culture,
-                        Spain, and contemporary artistic currents
-                        in the Middle East.</p>
+                    <p class="card-text">The Great Wall of China was built over centuries by China's emperors to protect their territory. Today, it stretches for thousands of miles along China's historic northern border.</p>
                 </div>
             </div>
             <div class="card home_card">
-                <img src="../resources/images/image7.png" class="card-img-top" alt="...">
+                <img src="../resources/images/Versailles.jpg" class="card-img-top" alt="..." height="300px">
                 <div class="card-body">
-                    <h5 class="card-title">Live traditionally in <span class="bold">Mongolia</span></h5>
-                    <p class="card-text">Traditional Mongolian yurts consists of an angled latticework of wood or bamboo
-                        for walls, ribs, and a wheel.</p>
+                    <h5 class="card-title">Explore the palaces in <span class="bold">Versailles</span></h5>
+                    <p class="card-text">The Palace of Versailles has been listed as a World Heritage Site for 40 years and is one of the greatest achievements in French 17th century art.</p>
                 </div>
             </div>
         </div>
